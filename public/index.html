@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random IT Generator</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Random IT Scenario Generator</h1></header>
+    <main>
+      <h1>Please fill the following fields:</h1>
+      <form id="mainForm">
+        <span>
+          <label for="technology"
+            >Technology (e.g., Cloud Computing, Cybersecurity, DevOps):</label
+          >
+          <input type="text" id="technology" required name="technology" />
+        </span>
+        <span>
+          <label for="role"
+            >Role (e.g., System Administrator, Software Engineer) :</label
+          >
+          <input type="text" id="role" name="role" required />
+        </span>
+        <span>
+          <label for="environment"
+            >Environment (e.g., Enterprise Network, Cloud
+            Infrastructure):</label
+          >
+          <input type="text" id="environment" name="environment"
+        /></span>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <label for="scenario">Generated Scenario:</label>
+      <textarea rows="10" id="scenario"></textarea>
+    </main>
+  </body>
+</html>
