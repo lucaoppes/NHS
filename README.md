@@ -4,7 +4,7 @@ This is my (Luca Oppes) submission for the Band 5 Junior Developer Assignment.
 
 ## How to Run
 
-Clone the repository, npm install and start the server by using 'node app.js'
+Clone the repository, npm install and start the API by running the script (npm start)
 
 ## How to use
 
